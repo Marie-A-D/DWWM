@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+body{
+    font-family: "Fira Sans", sans-serif;
+}
+
+*{  /*enlever l'espace entre les blocks*/
+    padding: 0;
+    margin: 0;
+}
+
+.rectanglebleu{
+    background-image: url(hommeski.jpg); /*ajout de mon image de fond du premier rectangle*/
+    background-size: cover;
+    width: 100%;   /*longueur de l'image hommeski*/
+    height: 880px;         /*hauteur de l'image hommeski*/
+}
+
+.logo{
+    margin-left: 200px;  /*décaler le logo vers la droite*/
+    padding-top: 100px;  /*écarter le logo du haut de la page*/
+    padding-bottom: 200px;  /*écarter le logo du text*/
+}
+
+.adtext, .altext{  /*titres amazing dude et life*/
+    font-size: 80px;
+    font-weight: 100;
+    margin-left: 200px;
+}
+
+.textamazing1, .textamazing2{ /*text lerem ipsum du carré bleu*/
+    font-size: 25px;
+    margin-left: 200px; /*décaler les titres vers la droite*/
+}
+
+.rectangleblanc{
+    background-color: whitesmoke; /*couleur du deuxième rectangle*/
+    width: 100%;  /*longueur du rectangle blanc*/
+    height: 400px;  /*hauteur du rectangle blanc*/
+}
+
+.soustitresed, .soustitreinsta{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 200px; /*décaler les sous-titres vers la droite*/
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.textrecblanc1, .textrecblanc2, .textrecrouge1, .textrecrouge2 {
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+
+.rectanglerouge{
+    background-color: rgb(227, 88, 88); /*couleur du troisième rectangle*/
+    width: 100%;   /*longueur du rectangle rouge*/
+    height: 400px;   /*hauteur du rectangle blanc*/
+}
+
